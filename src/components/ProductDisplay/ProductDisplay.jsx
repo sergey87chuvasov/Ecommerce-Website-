@@ -39,29 +39,29 @@ const ProductDisplay = (props) => {
           <div className='productdisplay-right-price-new'>
             ${product.new_price}
           </div>
-          <div className='productdisplay-right-description'>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi
-            accusantium debitis id reiciendis ab veniam suscipit consequuntur
-            exercitationem? Eum dolorum dolores nihil rem accusamus impedit
-            tenetur itaque a odio quibusdam?
+        </div>
+        <div className='productdisplay-right-description'>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi
+          accusantium debitis id reiciendis ab veniam suscipit consequuntur
+          exercitationem? Eum dolorum dolores nihil rem accusamus impedit
+          tenetur itaque a odio quibusdam?
+        </div>
+        <div className='productdisplay-right-size'>
+          <h1>Select Size</h1>
+          <div className='productdisplay-right-sizes'>
+            <div>S</div>
+            <div>M</div>
+            <div>L</div>
+            <div>XL</div>
+            <div>XXL</div>
           </div>
-          <div className='productdisplay-right-size'>
-            <h1>Select Size</h1>
-            <div className='productdisplay-right-size'>
-              <div>S</div>
-              <div>M</div>
-              <div>L</div>
-              <div>XL</div>
-              <div>XXL</div>
-            </div>
-            <button>ADD TO CART</button>
-            <p className='productdisplay-right-category'>
-              <span>Category:</span>Woman, T-Shirt, Crop Top
-            </p>
-            <p className='productdisplay-right-category'>
-              <span>Tags:</span>Modern, Latest
-            </p>
-          </div>
+          <button>ADD TO CART</button>
+          <p className='productdisplay-right-category'>
+            <span>Category:</span>Woman, T-Shirt, Crop Top
+          </p>
+          <p className='productdisplay-right-category'>
+            <span>Tags:</span>Modern, Latest
+          </p>
         </div>
       </div>
     </div>
